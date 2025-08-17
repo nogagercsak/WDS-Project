@@ -68,17 +68,6 @@ data = pd.read_csv('fire_data.csv')
 # Get predictions
 predictions, risk_scores = custom_fire_risk_model(data)
 ```
-
-## Project Structure
-
-```
-forest-fire-prediction/
-├── forest_fire_prediction.ipynb  # Main analysis
-├── forestfires.csv               # Dataset
-├── requirements.txt              # Dependencies
-└── README.md                     
-```
-
 ## Requirements
 
 - Python 3.8+
